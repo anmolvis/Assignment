@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Faculty Info-Home</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <script type="text/javascript" src="home.js"></script>
+    </head>
+  <body>
+    <nav>
+      <br>
+      <span>Hello Admin!</span>
+      <ul>
+        <li><a href="#" onclick="searchPop()">Search</a></li><li>|</li>
+        <li><a href="#">New Data</a></li><li>|</li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+    <div id="search">
+      <form autocomplete="off" onsubmit="return onvalid()" method="get">
+       Reg. No. : <input type="text" name="searchid" placeholder="ID" id="searchbox" maxlength="8">
+        <input type="submit" value="Find!"><span onclick="searchHide()">&#9650;</span>
+      </form>
+    </div>
+    <div id="container">
+          <div id="streams">
+                <form method="post" autocomplete="off">
+                <input type="radio" name="stream" value="mec"  onclick="radiobut(value)"> MEC <input type="radio" name="stream" checked="true" value="cse" onclick="radiobut(value)">CSE
+                <br><br>Name: <input type="text" name="emp_name" placeholder="Enter the name" style="margin-right:10%;">  Phone No.: <input type="text" name="ph_num" placeholder="Enter the phone Number"><br><br>
+                Select the branch: <select class="" name="branch" disabled="true"><option value="mec"  >MEC</option><option value="cse" selected>CSE</option><option value=""></option>
+
+                </optgroup>
+
+                </select>
+              </form>
+          </div>
+    </div>
+  </body>
+</html>

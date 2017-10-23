@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+  font-size: 22px;
+  background-image: url('login_back1.jpg');
+  background-size:cover;
+  color: rgb(124, 119, 119)
+
+
+}
+form fieldset{
+  z-index: 1;
+  background-color:white;
+  width: 500px;
+  margin: 200px 0 0 400px;
+  border-radius: 6px;
+  border-color: rgb(62, 89, 188);
+
+}
+input[type=text],[type=password]{
+  margin-left: 5px;
+  font-family: sans-serif;
+  padding: 8px 10px 8px 5px;
+  border-radius: 3px;
+  border-color: rgb(62, 89, 188);
+  font-size: 20px;
+  color: grey;
+}
+input[type=submit],[type=reset]{
+  margin: 0px 0px 0 80px;
+  padding: 8px 30px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-family: sans-serif;
+  color: white;
+  background-color:rgb(62, 89, 188);
+  border-color: rgb(62, 89, 188);
+  cursor: pointer;
+
+}

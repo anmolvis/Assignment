@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="Admin_login.css" type="text/css">
+    <script type="text/javascript" src="Admin_login.js"></script>
+  </head>
+  <body>
+    <p>
+        <form class="login" onsubmit="return valid()" method="get">
+          <fieldset>
+            <h2>Admin Login</h2>
+            Registration No. :<input type="text"  name="idnum" placeholder="Enter your ID"  autofocus="true" max="8" autocomplete="off"><span style="color:red;font-size:28px"><sup>*</sup></span> <br><br>
+            Password :<input type="password" name="passwd" placeholder="Enter your password" style="margin-left:13%;"><span style="color:red;font-size:28px;"><sup>*</sup></span><br><br>
+            <input type="submit"  value="Login" style="margin-left:23%;">
+            <input type="reset" value="Reset">
+          </fieldset>
+        </form>
+      <span style="color:red;font-size:16px;margin-left:30%">* means it is required</span></p>
+  </body>
+</html>
